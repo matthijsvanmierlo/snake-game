@@ -7,7 +7,6 @@
 class SnakeGame
 {
 
-  // Class variables
   ArrayList<BodyPart> body = new ArrayList<>();
   Direction d;
   int frames;
@@ -34,7 +33,6 @@ class SnakeGame
    */
   public void eat()
   {
-    // TODO check this...
     BodyPart tempHead = body.get(0);
     Food tempFood = f;
     float distBetween = dist(tempHead.x, tempHead.y, tempFood.x, tempFood.y);
@@ -64,7 +62,6 @@ class SnakeGame
       BodyPart tail = new BodyPart(temp.x, temp.y);
       tail.x = head.x;
       tail.y = head.y;
-      // Update motion
       switch(d) {
       case UP:
         tail.y -= SIZE;
