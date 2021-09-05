@@ -1,6 +1,6 @@
 # Snake Game Project
 
-![Snake Picture 1](snake-2266.png)
+![Snake Picture 1](/images/snake-2266.png)
 
 ## Basic Description
 
