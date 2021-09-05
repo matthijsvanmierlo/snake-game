@@ -50,6 +50,7 @@ void keyPressed()
       break;
     case ENTER:
       s.gameRunning = !s.gameRunning;
+      //saveFrame("snake-###.png");
       break;
     }
   }
